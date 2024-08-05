@@ -1,0 +1,21 @@
+{
+  "name": "time-conversion-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/main.ts",
+    "prebuild": "rimraf dist/",
+    "build": "tsc main.ts",
+    "preview": "dist main.js"
+  },
+  "author": "Lili Ghaznavi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.7",
+    "rimraf": "^6.0.1"
+  }
+}
