@@ -21,6 +21,7 @@ Before running this project, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [ts-node](https://www.npmjs.com/package/ts-node)
 - [Nodemon](https://www.npmjs.com/package/nodemon) (for development)
 - [rimraf](https://www.npmjs.com/package/rimraf) (for cleaning build artifacts)
 - [`@inquirer/prompts`](https://www.npmjs.com/package/@inquirer/prompts) (for handling user input)
